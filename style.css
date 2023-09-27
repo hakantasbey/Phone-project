@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+nav {
+  background-color: white;
+  margin: 1%;
+  height: 8vh;
+  border-radius: 6px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-top: 1.2%;
+  font-family: "Roboto", sans-serif;
+}
+
+#devlinks {
+  margin-left: 2%;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#icon1 {
+  border: 2px solid blueviolet;
+  background-color: blueviolet;
+  color: white;
+  /* margin-right: 5px; */
+  border-radius: 5px;
+  /* margin-right: 1%; */
+}
+
+#links {
+  margin-left: 15px;
+  /* color: rgb(114, 112, 112); */
+  padding: 0.6% 1%;
+}
+
+div {
+  display: inline-block;
+  /* border: 1px solid red; */
+  margin-left: 30%;
+  width: 120px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div:hover a {
+  color: white;
+}
+div:hover {
+  background-color: blueviolet;
+  color: blueviolet;
+  border-radius: 8px;
+  /* padding: 0.6% 1%; */
+}
+
+/* #links:hover a{
+    color: white;
+  } */
+
+/* #links #icon2:hover{
+ color: white;
+  } */
+
+#links a {
+  text-decoration: none;
+  /* color: rgb(114, 112, 112); */
+}
+
+a {
+  text-decoration: none;
+}
+
+.div2 {
+  display: inline-block;
+  width: 150px;
+  padding: 10px;
+  margin-left: 4%;
+}
+
+#icon2 {
+  /* border: 1px solid blueviolet; */
+  /* color: rgb(114, 112, 112);
+  /* margin-left: 5px; */
+  margin-right: 4px;
+}
+
+#profile {
+  margine-left: 6%;
+  width: 230px;
+}
+
+#preview {
+  /* padding-left: 39%; */
+  border: 2px solid blueviolet;
+  margin-left: 30%;
+  border-radius: 6px;
+  padding: 0.5% 1.3%;
+}
+
+/* ------------------------------------------- */
+
+.left {
+  border: 2px solid black;
+  width: 35%;
+  height: 85vh;
+  margin-left: 1%;
+  border-radius: 6px;
+  background-color: white;
+}
+
+.phone {
+  border: 1px solid gray;
+  width: 50%;
+  height: 70vh;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 35px;
+  background-color: white;
+}
+
+.phone2 {
+  border: 1px solid gray;
+  width: 95%;
+  height: 95%;
+  margin: 4% auto;
+  border-radius: 35px;
+  background-color: white;
+}
+
+.photo {
+  /* border: 1px solid rgba(128, 128, 128, 0.326); */
+  width: 35%;
+  height: 20%;
+  margin: 10% auto;
+  border-radius: 50%;
+  background-color: rgba(211, 211, 211, 0.5);
+}
+
+.photo2 {
+  /* border: 1px solid rgba(128, 128, 128, 0.300); */
+  width: 65%;
+  height: 3%;
+  margin: 10% auto 3%;
+  border-radius: 5px;
+  background-color: rgba(211, 211, 211, 0.5);
+}
+
+.photo3 {
+  /* border: 1px solid rgba(128, 128, 128, 0.300); */
+  width: 40%;
+  height: 2%;
+  margin: 4% auto;
+  border-radius: 5px;
+  background-color: rgba(211, 211, 211, 0.5);
+}
+
+.github {
+  background-color: rgba(211, 211, 211, 0.868);
+  width: 85%;
+  height: 8%;
+  margin: 10% auto;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding-top: 4%;
+  font-size: 12px;
+}
+
+#space {
+  padding-left: 8%;
+}
+
+#arrow {
+  padding-left: 55%;
+}
