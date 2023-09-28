@@ -9,6 +9,7 @@ body {
 }
 
 nav {
+  position: relative;
   background-color: white;
   margin: 1%;
   height: 8vh;
@@ -109,12 +110,14 @@ a {
 /* ------------------------------------------- */
 
 .left {
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  position: absolute;
   width: 35%;
-  height: 85vh;
+  height: 87vh;
   margin-left: 1%;
   border-radius: 6px;
   background-color: white;
+  display: inline-block;
 }
 
 .phone {
@@ -175,10 +178,192 @@ a {
   font-size: 12px;
 }
 
-#space {
+#space, #space1, #space2 {
   padding-left: 8%;
 }
 
 #arrow {
-  padding-left: 55%;
+  padding-left: 56%;
 }
+
+#arrow1{
+padding-left: 50%;
+}
+
+#arrow2{
+  padding-left: 51%;
+  }
+
+
+.youtube {
+  background-color: red;
+  width: 85%;
+  height: 8%;
+  margin: -4% auto;
+  border-radius: 5px;
+  color: white;
+  padding-top: 4%;
+  font-size: 12px;
+}
+
+.linkedln {
+  background-color: blue;
+  width: 85%;
+  height: 8%;
+  margin: 10% auto;
+  border-radius: 5px;
+  color: white;
+  padding-top: 4%;
+  font-size: 12px;
+}
+
+.bos {
+  background-color: rgba(211, 211, 211, 0.5);
+  width: 85%;
+  height: 8%;
+  margin: -4% auto;
+  border-radius: 5px;
+  color: white;
+  padding-top: 4%;
+  font-size: 12px;
+}
+
+.bos1 {
+  background-color: rgba(211, 211, 211, 0.5);
+  width: 85%;
+  height: 8%;
+  margin: 10% auto;
+  border-radius: 5px;
+  color: white;
+  padding-top: 4%;
+  font-size: 12px;
+}
+
+main{
+  border: 1px solid yellow;
+  width: 99%;
+  height: 110vh;
+}
+
+.right{
+  position: absolute;
+  display: inline-block;
+  /* border: 1px solid red; */
+  width: 61.8%;
+  height: 87vh;
+  margin-left: 37%;
+  border-radius: 6px;
+  background-color: white;
+  margin-bottom: -15.1%;
+  
+}
+
+.right h1{
+  font-family: "Roboto", sans-serif;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+
+.right p{
+  font-family: "Roboto", sans-serif;
+  padding-left: 5%;
+  padding-top: 1.5%;
+}
+
+.btn1{
+  width: 90%;
+  margin: auto;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding: 1% 0%;
+  border-radius: 8px; 
+  background-color: white;
+  color: rgba(137, 43, 226, 0.767);
+  font-weight: bold;
+  border: 2px solid rgba(137, 43, 226, 0.767);
+  text-shadow: 1px 0 1px;
+}
+
+.link1{
+  /* border: 1px solid red; */
+  background-color: rgba(211, 211, 211, 0.5);
+  margin: 2% 5%;
+  height: 26%;
+  border-radius: 8px;
+}
+
+.link1 span{
+  padding-left: 82%;
+  font-weight: lighter;
+}
+.link1 p{
+  padding-left: 2%;
+  color: rgb(114, 112, 112);
+  font-weight: bold;
+}
+
+.label1{
+  margin-left: 2%;
+  display: block;
+  margin-top: 1%;
+  font-size: 14px;
+  color: rgb(114, 112, 112);
+  /* border: 1px solid red; */
+}
+.select{
+  width: 95%;
+  margin-left: 2%;
+  margin-top: -2%;
+  display: block;
+  height: 20%;
+  border-radius: 8px;
+  border: 1px solid rgb(114, 112, 112);
+}
+
+.label2{
+  margin-left: 2%;
+  display: block;
+  margin-top: 1%;
+  font-size: 14px;
+  color: rgb(114, 112, 112);
+}
+
+#label2{
+  width: 95%;
+  margin-left: 2%;
+  margin-top: -2%;
+  display: block;
+  height: 20%;
+  border-radius: 8px;
+  border: 1px solid rgb(114, 112, 112);
+}
+
+
+.btn2{
+  margin-left: 88%;
+  margin-top: 3%;
+  padding: 1% 2%;
+  border-radius: 8px;
+  background-color: blueviolet;
+  border-color: blueviolet;
+  color: white;
+
+}
+
+
+
+
+
+/* .btn1{
+  width: 90%;
+  margin: auto;
+  margin-left: 5%;
+  margin-top: 3%;
+  padding: 1% 0%;
+  border-radius: 8px; 
+  background-color: white;
+  color: rgba(137, 43, 226, 0.767);
+  font-weight: bold;
+  border: 2px solid rgba(137, 43, 226, 0.767);
+  text-shadow: 1px 0 1px;
+} */
